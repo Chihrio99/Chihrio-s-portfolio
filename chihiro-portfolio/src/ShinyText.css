@@ -1,0 +1,22 @@
+.shiny-text {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+
+.shiny-text-canvas {
+  display: block;
+  max-width: none;
+}
+
+.shiny-text-accessible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
